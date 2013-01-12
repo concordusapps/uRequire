@@ -65,7 +65,7 @@ Dependency = (function() {
       options.plugin = true;
     }
     if ((_ref2 = options.relativeType) == null) {
-      options.relativeType = 'file';
+      options.relativeType = 'bundle';
     }
     n = "" + ((options != null ? options.plugin : void 0) && this.pluginName ? this.pluginName + '!' : '') + ((options != null ? options.relativeType : void 0) === 'bundle' ? this.bundleRelative() : this.fileRelative());
     if (options.ext || !this.extname) {
