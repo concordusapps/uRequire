@@ -3,8 +3,6 @@
 /libs/
 /grunt*
 /samples
-/build/spec/
-/build/examples/
 /temp/
 /package.coffee
 /.npmignore
