@@ -70,7 +70,7 @@ convertModule = (modyle, oldJs, bundleFiles, options, reporter)->
           for strDep in (strDepsArray || [])
             dep = new Dependency strDep, modyle, bundleFiles
             deps.push dep
-            requireReplacements[strDep] = dep.name()
+            requireReplacements[strDep] = dep.name options.relativeType
             reporter.reportDep dep, modyle if reporter
 
           deps
