@@ -45,10 +45,7 @@
   },
   "main": "./build/code/urequire.js",
   "test": "mocha build/spec --recursive --bail --reporter spec",
-  "scripts": {
-    "install": "grunt build",
-    "test": "grunt test"
-  },
+
   "directories": {
     "doc": "./doc",
     "dist": "./build"
