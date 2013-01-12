@@ -121,7 +121,7 @@ module.exports = (grunt) ->
 
   # Dependencies
   # ============
-  for name of pkg.devDependencies when name.substring(0, 6) is 'grunt-'
+  for name of pkg.dependencies when name.substring(0, 6) is 'grunt-'
     grunt.loadNpmTasks name
 
   # Tasks
